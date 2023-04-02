@@ -1,3 +1,4 @@
+<?php
 add_filter( 'body_class', 'add_role_to_body_class2' );
 function add_role_to_body_class2( $classes ) {
 		global $product;
